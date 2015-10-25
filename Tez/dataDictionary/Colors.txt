@@ -1,0 +1,209 @@
+Alice blue
+Alizarin
+Amaranth
+Amber
+Amethyst
+Apricot
+Aqua
+Aquamarine
+Army green
+Asparagus
+Auburn
+Azure
+Baby blue
+Beige
+Bistre
+Black
+Blue
+Blue-green
+Blue-violet
+Bondi blue
+Brass
+Bright green
+Bright turquoise
+Brilliant rose
+Bronze
+Brown
+Buff
+Burgundy
+Burnt orange
+Burnt sienna
+Burnt umber
+Camouflage green
+Caput Mortuum
+Cardinal
+Carmine
+Carnation pink
+Carolina blue
+Carrot orange
+Celadon
+Cerise
+Cerulean
+Cerulean blue
+Chartreuse
+Chestnut
+Chocolate
+Cinnabar
+Cinnamon
+Cobalt
+Copper
+Copper rose
+Coral
+Coral red
+Corn
+Cornflower blue
+Cosmic latte
+Cream
+Crimson
+Cyan
+Dark blue
+Dark brown
+Dark cerulean
+Dark chestnut
+Dark coral
+Dark goldenrod
+Dark green
+Dark khaki
+Dark pastel green
+Dark pink
+Dark salmon
+Dark slate gray
+Dark spring green
+Dark tan
+Dark tangerine
+Dark turquoise
+Dark violet
+Deep cerise
+Deep fuchsia
+Deep lilac
+Deep magenta
+Deep peach
+Deep pink
+Denim
+Dodger blue
+Ecru
+Eggplant
+Electric blue
+Electric green
+Electric indigo
+Electric lime
+Electric purple
+Emerald
+Falu red
+Fern green
+Firebrick
+Flax
+Forest green
+French Rose
+Fuchsia
+Fuchsia Pink
+Gamboge
+Gold
+Golden brown
+Golden yellow
+Goldenrod
+Green
+Grey
+Grey-asparagus
+Han Purple
+Harlequin
+Heliotrope
+Hollywood Cerise
+Hot Magenta
+Hot Pink
+Indigo
+Ivory
+Jade
+Khaki
+Lavender
+Lawn green
+Lemon
+Lime
+Linen
+Magenta
+Malachite
+Maroon
+Mauve
+Mauve Taupe
+Maya blue
+Midnight Blue
+Mint Green
+Misty rose
+Moss green
+Mountbatten pink
+Mustard
+Myrtle
+Navajo white
+Navy Blue
+Ochre
+Office green
+Old Gold
+Old Lace
+Old Lavender
+Old Rose
+Olive
+Olive Drab
+Olivine
+Orange
+Orchid
+Pastel green
+Pastel pink
+Peach
+Pear
+Periwinkle
+Persian blue
+Persian green
+Persian indigo
+Persian pink
+Persian red
+Persian rose
+Persimmon
+Pink
+Platinum
+Puce
+Pumpkin
+Purple
+Raw umber
+Red
+Red-violet
+Rich carmine
+Rich magenta
+Robin egg blue
+Rose
+Rose Taupe
+Royal purple
+Ruby
+Russet
+Rust
+Saffron
+Salmon
+Sandy brown
+Sangria
+Sapphire
+Scarlet
+Sea Green
+Seashell
+Sepia
+Shamrock green
+Silver
+Sky Blue
+Slate grey
+Spring bud
+Spring green
+Steel blue
+Tan
+Tangerine
+Tea Green
+Tea rose
+Teal
+Terra cotta
+Thistle
+Turquoise
+Tyrian purple
+Vermilion
+Violet
+Wheat
+White
+Wisteria
+Yellow
+Zinnwaldite

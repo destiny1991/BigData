@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DataDictionaries>
+  <DataDictionary name="Zipcode" numvalues="138">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>02888</minvalue>
+    <maxvalue>98843</maxvalue>
+    <tag>us,american,zipcode</tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Languages" numvalues="879">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>A-Pucikwar</minvalue>
+    <maxvalue>Zway</maxvalue>
+    <tag>english,language</tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Cities" numvalues="14471">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Abbotsford</minvalue>
+    <maxvalue>Zwolle</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Countries" numvalues="243">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Afghanistan</minvalue>
+    <maxvalue>Zimbabwe</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Countries_short" numvalues="243">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>AD</minvalue>
+    <maxvalue>ZW</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Professions" numvalues="709">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Accountant</minvalue>
+    <maxvalue>Zoologist</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="States" numvalues="63">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Alabama</minvalue>
+    <maxvalue>Yukon</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="States_short" numvalues="63">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>AB</minvalue>
+    <maxvalue>YT</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Titles" numvalues="12">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Dame</minvalue>
+    <maxvalue>Sir</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Streets" numvalues="4729">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>10th Streetreet Brdg</minvalue>
+    <maxvalue>Zurn Way</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Lastnames" numvalues="338">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Ahlgren</minvalue>
+    <maxvalue>Zurich</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Firstnames" numvalues="432">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Ada</minvalue>
+    <maxvalue>Zofia</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Colors" numvalues="209">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>Alice blue</minvalue>
+    <maxvalue>Zinnwaldite</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Englishwords" numvalues="58110">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>AARDVARK</minvalue>
+    <maxvalue>ZULUS</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Englishwords_lower" numvalues="58110">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue>aardvark</minvalue>
+    <maxvalue>zulus</maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Items" numvalues="8097">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue></minvalue>
+    <maxvalue></maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+  <DataDictionary name="Sentence" numvalues="16">
+    <code>English</code>
+    <vtype>String</vtype>
+    <minvalue></minvalue>
+    <maxvalue></maxvalue>
+    <tag></tag>
+    <case>false</case>
+  </DataDictionary>
+</DataDictionaries>

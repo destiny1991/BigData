@@ -1,0 +1,782 @@
+2015-09-08 20:07:18,133 WARN [org.apache.hadoop.util.NativeCodeLoader] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-09-08 20:07:21,780 INFO [org.apache.hadoop.conf.Configuration.deprecation] - session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-09-08 20:07:21,784 INFO [org.apache.hadoop.metrics.jvm.JvmMetrics] - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2015-09-08 20:07:22,363 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-09-08 20:07:22,369 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2015-09-08 20:07:22,439 INFO [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] - Total input paths to process : 1
+2015-09-08 20:07:22,544 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1
+2015-09-08 20:07:22,910 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - Submitting tokens for job: job_local1138072616_0001
+2015-09-08 20:07:23,116 INFO [org.apache.hadoop.mapreduce.Job] - The url to track the job: http://localhost:8080/
+2015-09-08 20:07:23,118 INFO [org.apache.hadoop.mapreduce.Job] - Running job: job_local1138072616_0001
+2015-09-08 20:07:23,121 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter set in config null
+2015-09-08 20:07:23,143 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-09-08 20:07:23,235 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for map tasks
+2015-09-08 20:07:23,236 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local1138072616_0001_m_000000_0
+2015-09-08 20:07:23,312 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-09-08 20:07:23,313 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-09-08 20:07:23,319 INFO [org.apache.hadoop.mapred.MapTask] - Processing split: hdfs://parallels:9000/mapreduce/input/inputdata:0+62
+2015-09-08 20:07:23,472 INFO [org.apache.hadoop.mapred.MapTask] - (EQUATOR) 0 kvi 26214396(104857584)
+2015-09-08 20:07:23,476 INFO [org.apache.hadoop.mapred.MapTask] - mapreduce.task.io.sort.mb: 100
+2015-09-08 20:07:23,479 INFO [org.apache.hadoop.mapred.MapTask] - soft limit at 83886080
+2015-09-08 20:07:23,479 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufvoid = 104857600
+2015-09-08 20:07:23,479 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396; length = 6553600
+2015-09-08 20:07:23,486 INFO [org.apache.hadoop.mapred.MapTask] - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-09-08 20:07:23,590 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 
+2015-09-08 20:07:23,593 INFO [org.apache.hadoop.mapred.MapTask] - Starting flush of map output
+2015-09-08 20:07:23,593 INFO [org.apache.hadoop.mapred.MapTask] - Spilling map output
+2015-09-08 20:07:23,593 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufend = 150; bufvoid = 104857600
+2015-09-08 20:07:23,593 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396(104857584); kvend = 26214356(104857424); length = 41/6553600
+2015-09-08 20:07:23,609 INFO [org.apache.hadoop.mapred.MapTask] - Finished spill 0
+2015-09-08 20:07:23,614 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local1138072616_0001_m_000000_0 is done. And is in the process of committing
+2015-09-08 20:07:23,627 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map
+2015-09-08 20:07:23,628 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local1138072616_0001_m_000000_0' done.
+2015-09-08 20:07:23,628 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local1138072616_0001_m_000000_0
+2015-09-08 20:07:23,628 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map task executor complete.
+2015-09-08 20:07:23,631 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for reduce tasks
+2015-09-08 20:07:23,631 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local1138072616_0001_r_000000_0
+2015-09-08 20:07:23,639 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-09-08 20:07:23,640 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-09-08 20:07:23,643 INFO [org.apache.hadoop.mapred.ReduceTask] - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@284b8a87
+2015-09-08 20:07:23,665 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-09-08 20:07:23,669 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - attempt_local1138072616_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-09-08 20:07:23,709 INFO [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher] - localfetcher#1 about to shuffle output of map attempt_local1138072616_0001_m_000000_0 decomp: 174 len: 178 to MEMORY
+2015-09-08 20:07:23,715 INFO [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput] - Read 174 bytes from map-output for attempt_local1138072616_0001_m_000000_0
+2015-09-08 20:07:23,718 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - closeInMemoryFile -> map-output of size: 174, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->174
+2015-09-08 20:07:23,720 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - EventFetcher is interrupted.. Returning
+2015-09-08 20:07:23,721 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-09-08 20:07:23,721 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2015-09-08 20:07:23,732 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-09-08 20:07:23,732 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-09-08 20:07:23,734 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merged 1 segments, 174 bytes to disk to satisfy reduce memory limit
+2015-09-08 20:07:23,734 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 1 files, 178 bytes from disk
+2015-09-08 20:07:23,735 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 0 segments, 0 bytes from memory into reduce
+2015-09-08 20:07:23,735 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-09-08 20:07:23,735 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-09-08 20:07:23,736 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-09-08 20:07:23,770 INFO [org.apache.hadoop.conf.Configuration.deprecation] - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-09-08 20:07:23,894 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local1138072616_0001_r_000000_0 is done. And is in the process of committing
+2015-09-08 20:07:23,898 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-09-08 20:07:23,898 INFO [org.apache.hadoop.mapred.Task] - Task attempt_local1138072616_0001_r_000000_0 is allowed to commit now
+2015-09-08 20:07:23,912 INFO [org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter] - Saved output of task 'attempt_local1138072616_0001_r_000000_0' to hdfs://parallels:9000/mapreduce/output/_temporary/0/task_local1138072616_0001_r_000000
+2015-09-08 20:07:23,913 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce > reduce
+2015-09-08 20:07:23,914 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local1138072616_0001_r_000000_0' done.
+2015-09-08 20:07:23,914 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local1138072616_0001_r_000000_0
+2015-09-08 20:07:23,914 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce task executor complete.
+2015-09-08 20:07:24,122 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local1138072616_0001 running in uber mode : false
+2015-09-08 20:07:24,130 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 100%
+2015-09-08 20:07:24,132 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local1138072616_0001 completed successfully
+2015-09-08 20:07:24,149 INFO [org.apache.hadoop.mapreduce.Job] - Counters: 35
+	File System Counters
+		FILE: Number of bytes read=720
+		FILE: Number of bytes written=506994
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=124
+		HDFS: Number of bytes written=22
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=6
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=11
+		Map output bytes=150
+		Map output materialized bytes=178
+		Input split bytes=112
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3
+		Reduce shuffle bytes=178
+		Reduce input records=11
+		Reduce output records=3
+		Spilled Records=22
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=395313152
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=62
+	File Output Format Counters 
+		Bytes Written=22
+2015-09-08 20:08:27,665 WARN [org.apache.hadoop.util.NativeCodeLoader] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-09-08 20:08:28,522 INFO [org.apache.hadoop.conf.Configuration.deprecation] - session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-09-08 20:08:28,523 INFO [org.apache.hadoop.metrics.jvm.JvmMetrics] - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2015-09-08 20:08:28,718 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-09-08 20:08:28,727 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2015-09-08 20:08:28,820 INFO [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] - Total input paths to process : 1
+2015-09-08 20:08:28,863 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1
+2015-09-08 20:08:29,037 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - Submitting tokens for job: job_local58084134_0001
+2015-09-08 20:08:29,238 INFO [org.apache.hadoop.mapreduce.Job] - The url to track the job: http://localhost:8080/
+2015-09-08 20:08:29,240 INFO [org.apache.hadoop.mapreduce.Job] - Running job: job_local58084134_0001
+2015-09-08 20:08:29,240 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter set in config null
+2015-09-08 20:08:29,249 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-09-08 20:08:29,310 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for map tasks
+2015-09-08 20:08:29,310 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local58084134_0001_m_000000_0
+2015-09-08 20:08:29,353 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-09-08 20:08:29,354 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-09-08 20:08:29,358 INFO [org.apache.hadoop.mapred.MapTask] - Processing split: hdfs://parallels:9000/mapreduce/input/inputdata:0+62
+2015-09-08 20:08:29,511 INFO [org.apache.hadoop.mapred.MapTask] - (EQUATOR) 0 kvi 26214396(104857584)
+2015-09-08 20:08:29,512 INFO [org.apache.hadoop.mapred.MapTask] - mapreduce.task.io.sort.mb: 100
+2015-09-08 20:08:29,512 INFO [org.apache.hadoop.mapred.MapTask] - soft limit at 83886080
+2015-09-08 20:08:29,512 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufvoid = 104857600
+2015-09-08 20:08:29,512 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396; length = 6553600
+2015-09-08 20:08:29,515 INFO [org.apache.hadoop.mapred.MapTask] - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-09-08 20:08:29,586 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 
+2015-09-08 20:08:29,589 INFO [org.apache.hadoop.mapred.MapTask] - Starting flush of map output
+2015-09-08 20:08:29,589 INFO [org.apache.hadoop.mapred.MapTask] - Spilling map output
+2015-09-08 20:08:29,589 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufend = 150; bufvoid = 104857600
+2015-09-08 20:08:29,589 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396(104857584); kvend = 26214356(104857424); length = 41/6553600
+2015-09-08 20:08:29,602 INFO [org.apache.hadoop.mapred.MapTask] - Finished spill 0
+2015-09-08 20:08:29,606 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local58084134_0001_m_000000_0 is done. And is in the process of committing
+2015-09-08 20:08:29,617 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map
+2015-09-08 20:08:29,618 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local58084134_0001_m_000000_0' done.
+2015-09-08 20:08:29,618 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local58084134_0001_m_000000_0
+2015-09-08 20:08:29,618 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map task executor complete.
+2015-09-08 20:08:29,621 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local58084134_0001_r_000000_0
+2015-09-08 20:08:29,621 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for reduce tasks
+2015-09-08 20:08:29,630 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-09-08 20:08:29,630 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-09-08 20:08:29,632 INFO [org.apache.hadoop.mapred.ReduceTask] - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@612640f0
+2015-09-08 20:08:29,653 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-09-08 20:08:29,658 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - attempt_local58084134_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-09-08 20:08:29,706 INFO [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher] - localfetcher#1 about to shuffle output of map attempt_local58084134_0001_m_000000_0 decomp: 174 len: 178 to MEMORY
+2015-09-08 20:08:29,712 INFO [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput] - Read 174 bytes from map-output for attempt_local58084134_0001_m_000000_0
+2015-09-08 20:08:29,717 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - closeInMemoryFile -> map-output of size: 174, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->174
+2015-09-08 20:08:29,718 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - EventFetcher is interrupted.. Returning
+2015-09-08 20:08:29,719 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-09-08 20:08:29,719 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2015-09-08 20:08:29,729 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-09-08 20:08:29,730 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-09-08 20:08:29,731 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merged 1 segments, 174 bytes to disk to satisfy reduce memory limit
+2015-09-08 20:08:29,731 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 1 files, 178 bytes from disk
+2015-09-08 20:08:29,732 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 0 segments, 0 bytes from memory into reduce
+2015-09-08 20:08:29,732 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-09-08 20:08:29,733 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-09-08 20:08:29,734 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-09-08 20:08:29,771 INFO [org.apache.hadoop.conf.Configuration.deprecation] - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-09-08 20:08:29,937 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local58084134_0001_r_000000_0 is done. And is in the process of committing
+2015-09-08 20:08:29,940 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-09-08 20:08:29,941 INFO [org.apache.hadoop.mapred.Task] - Task attempt_local58084134_0001_r_000000_0 is allowed to commit now
+2015-09-08 20:08:29,958 INFO [org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter] - Saved output of task 'attempt_local58084134_0001_r_000000_0' to hdfs://parallels:9000/mapreduce/output/_temporary/0/task_local58084134_0001_r_000000
+2015-09-08 20:08:29,959 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce > reduce
+2015-09-08 20:08:29,959 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local58084134_0001_r_000000_0' done.
+2015-09-08 20:08:29,959 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local58084134_0001_r_000000_0
+2015-09-08 20:08:29,959 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce task executor complete.
+2015-09-08 20:08:30,243 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local58084134_0001 running in uber mode : false
+2015-09-08 20:08:30,246 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 100%
+2015-09-08 20:08:30,247 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local58084134_0001 completed successfully
+2015-09-08 20:08:30,264 INFO [org.apache.hadoop.mapreduce.Job] - Counters: 35
+	File System Counters
+		FILE: Number of bytes read=720
+		FILE: Number of bytes written=501610
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=124
+		HDFS: Number of bytes written=22
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=11
+		Map output bytes=150
+		Map output materialized bytes=178
+		Input split bytes=112
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3
+		Reduce shuffle bytes=178
+		Reduce input records=11
+		Reduce output records=3
+		Spilled Records=22
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=10
+		Total committed heap usage (bytes)=428343296
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=62
+	File Output Format Counters 
+		Bytes Written=22
+2015-09-08 22:00:01,080 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: master:10000
+2015-09-08 22:00:01,091 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: master:10000
+2015-09-08 22:00:01,695 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://master:10000/default
+2015-09-08 22:00:01,778 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://master:10000/default
+2015-09-08 22:00:01,778 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-08 22:02:34,403 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:02:34,411 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:02:34,600 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:02:35,735 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:02:35,740 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-08 22:33:35,051 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:33:35,072 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:33:35,706 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:34:20,720 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:34:20,726 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:34:20,936 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:35:53,228 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:35:53,234 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:35:53,442 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:39:05,858 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:39:05,864 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:39:06,080 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:42:32,253 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:42:32,262 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:42:32,471 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:43:08,686 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:43:08,691 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:43:08,906 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:45:05,851 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:45:05,856 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:45:06,052 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:46:45,425 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 22:46:45,429 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 22:46:45,645 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:46:45,664 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 22:46:45,664 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-08 23:45:56,498 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 23:45:56,513 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 23:45:57,147 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 23:45:59,445 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 23:45:59,446 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-08 23:46:52,438 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 23:46:52,443 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 23:46:52,679 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 23:47:13,498 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 23:47:13,501 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 23:47:13,648 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 23:49:07,522 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 23:49:07,527 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 23:49:07,731 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 23:52:06,211 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 23:52:06,216 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 23:52:06,419 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-08 23:52:24,724 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-08 23:52:24,726 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-08 23:52:24,895 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 11:13:03,840 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 11:13:03,852 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 11:13:04,319 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 11:13:04,379 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 11:13:04,379 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-09 11:13:40,058 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 11:13:40,065 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 11:13:40,301 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:11:19,154 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:11:19,176 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:11:19,787 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:11:19,845 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:11:19,845 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-09 16:12:25,931 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:12:25,937 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:12:26,147 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:13:39,783 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:13:39,788 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:13:39,988 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:17:02,053 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:17:02,058 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:17:02,263 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:19:31,486 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:19:31,492 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:19:31,689 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:19:40,031 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:19:40,035 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:19:40,208 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:25:49,334 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:25:49,338 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:25:49,544 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:28:24,387 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:28:24,392 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:28:24,608 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:28:48,208 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:28:48,211 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:28:48,340 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:28:54,842 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:28:54,845 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:28:55,025 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:30:04,347 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:30:04,351 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:30:04,520 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:30:18,324 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:30:18,332 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:30:18,616 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:31:44,466 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:31:44,474 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:31:44,694 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:31:54,024 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:31:54,031 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:31:54,343 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:57:44,299 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 16:57:44,313 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 16:57:44,793 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:57:44,851 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 16:57:44,852 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-09 17:26:22,440 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 17:26:22,459 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 17:26:23,085 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-09 17:26:37,812 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-09 17:26:37,817 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-09 17:26:38,126 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-22 15:18:20,234 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:18:20,256 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:18:20,870 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-22 15:18:21,182 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-22 15:18:21,183 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-22 15:19:22,747 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:19:22,752 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:19:22,970 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-22 15:19:22,987 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/default
+2015-09-22 15:19:22,988 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-22 15:20:16,360 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:20:16,366 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:20:16,549 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:21:22,249 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:21:22,254 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:21:22,464 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:42:25,759 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:42:25,765 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:42:25,970 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:42:25,989 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:42:25,989 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-22 15:42:41,983 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:42:41,988 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:42:42,125 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:42:42,149 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:42:42,150 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-22 15:43:29,597 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:43:29,602 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:43:29,809 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:43:29,829 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:43:29,829 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-22 15:50:01,880 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:50:01,889 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:50:02,108 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:51:18,116 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:51:18,121 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:51:18,330 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:53:08,242 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:53:08,248 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:53:08,469 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:54:11,334 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:54:11,339 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:54:11,540 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:54:47,021 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:54:47,026 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:54:47,220 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:55:23,451 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:55:23,458 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:55:23,654 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:56:39,408 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:56:39,413 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:56:39,640 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:56:39,662 INFO [org.apache.hive.jdbc.HiveConnection] - Could not open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:56:39,662 INFO [org.apache.hive.jdbc.HiveConnection] - Transport Used for JDBC connection: null
+2015-09-22 15:58:19,110 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:58:19,115 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:58:19,313 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:58:39,680 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:58:39,685 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:58:39,827 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:58:54,136 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:58:54,140 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:58:54,293 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:59:11,574 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:59:11,578 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:59:11,771 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 15:59:47,419 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 15:59:47,424 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 15:59:47,577 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:00:15,449 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:00:15,452 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:00:15,591 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:01:16,432 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:01:16,436 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:01:16,634 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:02:01,193 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:02:01,198 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:02:01,402 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:02:29,885 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:02:29,889 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:02:30,031 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:03:00,650 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:03:00,656 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:03:00,902 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:03:18,577 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:03:18,582 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:03:18,721 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:04:27,652 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:04:27,657 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:04:27,854 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:05:22,682 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:05:22,687 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:05:22,869 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:06:01,383 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:06:01,388 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:06:01,536 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:06:56,137 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:06:56,142 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:06:56,275 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:07:18,285 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:07:18,289 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:07:18,425 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:09:55,046 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:09:55,051 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:09:55,190 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:11:39,997 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:11:40,002 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:11:40,140 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:24:34,248 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:24:34,254 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:24:34,463 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:30:17,690 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:30:17,695 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:30:17,896 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:31:06,826 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:31:06,831 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:31:07,031 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-09-22 16:31:19,896 INFO [org.apache.hive.jdbc.Utils] - Supplied authorities: parallels:10000
+2015-09-22 16:31:19,901 INFO [org.apache.hive.jdbc.Utils] - Resolved authority: parallels:10000
+2015-09-22 16:31:20,041 INFO [org.apache.hive.jdbc.HiveConnection] - Will try to open client transport with JDBC Uri: jdbc:hive2://parallels:10000/hive
+2015-10-10 11:34:00,493 WARN [org.apache.hadoop.util.NativeCodeLoader] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-10-10 11:34:03,394 INFO [org.apache.hadoop.conf.Configuration.deprecation] - session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-10 11:34:03,399 INFO [org.apache.hadoop.metrics.jvm.JvmMetrics] - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2015-10-10 11:34:03,996 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-10-10 11:34:04,002 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2015-10-10 11:34:04,186 INFO [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] - Total input paths to process : 1
+2015-10-10 11:34:04,317 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1
+2015-10-10 11:34:04,674 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - Submitting tokens for job: job_local1549600115_0001
+2015-10-10 11:34:04,889 INFO [org.apache.hadoop.mapreduce.Job] - The url to track the job: http://localhost:8080/
+2015-10-10 11:34:04,890 INFO [org.apache.hadoop.mapreduce.Job] - Running job: job_local1549600115_0001
+2015-10-10 11:34:04,898 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter set in config null
+2015-10-10 11:34:04,926 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-10 11:34:05,047 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for map tasks
+2015-10-10 11:34:05,048 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local1549600115_0001_m_000000_0
+2015-10-10 11:34:05,160 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-10 11:34:05,161 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-10-10 11:34:05,165 INFO [org.apache.hadoop.mapred.MapTask] - Processing split: hdfs://parallels:9000/mapreduce/input/inputdata:0+62
+2015-10-10 11:34:05,318 INFO [org.apache.hadoop.mapred.MapTask] - (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-10 11:34:05,318 INFO [org.apache.hadoop.mapred.MapTask] - mapreduce.task.io.sort.mb: 100
+2015-10-10 11:34:05,318 INFO [org.apache.hadoop.mapred.MapTask] - soft limit at 83886080
+2015-10-10 11:34:05,319 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufvoid = 104857600
+2015-10-10 11:34:05,319 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396; length = 6553600
+2015-10-10 11:34:05,330 INFO [org.apache.hadoop.mapred.MapTask] - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-10 11:34:05,716 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 
+2015-10-10 11:34:05,722 INFO [org.apache.hadoop.mapred.MapTask] - Starting flush of map output
+2015-10-10 11:34:05,722 INFO [org.apache.hadoop.mapred.MapTask] - Spilling map output
+2015-10-10 11:34:05,722 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufend = 150; bufvoid = 104857600
+2015-10-10 11:34:05,722 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396(104857584); kvend = 26214356(104857424); length = 41/6553600
+2015-10-10 11:34:05,753 INFO [org.apache.hadoop.mapred.MapTask] - Finished spill 0
+2015-10-10 11:34:05,763 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local1549600115_0001_m_000000_0 is done. And is in the process of committing
+2015-10-10 11:34:05,780 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map
+2015-10-10 11:34:05,780 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local1549600115_0001_m_000000_0' done.
+2015-10-10 11:34:05,781 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local1549600115_0001_m_000000_0
+2015-10-10 11:34:05,781 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map task executor complete.
+2015-10-10 11:34:05,786 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for reduce tasks
+2015-10-10 11:34:05,786 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local1549600115_0001_r_000000_0
+2015-10-10 11:34:05,799 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-10 11:34:05,799 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-10-10 11:34:05,813 INFO [org.apache.hadoop.mapred.ReduceTask] - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@10ded55b
+2015-10-10 11:34:05,854 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-10-10 11:34:05,857 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - attempt_local1549600115_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-10-10 11:34:05,896 INFO [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher] - localfetcher#1 about to shuffle output of map attempt_local1549600115_0001_m_000000_0 decomp: 174 len: 178 to MEMORY
+2015-10-10 11:34:05,896 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local1549600115_0001 running in uber mode : false
+2015-10-10 11:34:05,906 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 0%
+2015-10-10 11:34:05,910 INFO [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput] - Read 174 bytes from map-output for attempt_local1549600115_0001_m_000000_0
+2015-10-10 11:34:05,912 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - closeInMemoryFile -> map-output of size: 174, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->174
+2015-10-10 11:34:05,914 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - EventFetcher is interrupted.. Returning
+2015-10-10 11:34:05,915 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-10 11:34:05,915 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2015-10-10 11:34:05,930 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-10-10 11:34:05,930 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-10-10 11:34:05,932 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merged 1 segments, 174 bytes to disk to satisfy reduce memory limit
+2015-10-10 11:34:05,933 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 1 files, 178 bytes from disk
+2015-10-10 11:34:05,933 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 0 segments, 0 bytes from memory into reduce
+2015-10-10 11:34:05,933 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-10-10 11:34:05,934 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-10-10 11:34:05,935 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-10 11:34:05,983 INFO [org.apache.hadoop.conf.Configuration.deprecation] - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-10-10 11:34:06,661 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local1549600115_0001_r_000000_0 is done. And is in the process of committing
+2015-10-10 11:34:06,667 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-10 11:34:06,667 INFO [org.apache.hadoop.mapred.Task] - Task attempt_local1549600115_0001_r_000000_0 is allowed to commit now
+2015-10-10 11:34:06,692 INFO [org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter] - Saved output of task 'attempt_local1549600115_0001_r_000000_0' to hdfs://parallels:9000/mapreduce/output/_temporary/0/task_local1549600115_0001_r_000000
+2015-10-10 11:34:06,692 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce > reduce
+2015-10-10 11:34:06,693 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local1549600115_0001_r_000000_0' done.
+2015-10-10 11:34:06,693 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local1549600115_0001_r_000000_0
+2015-10-10 11:34:06,693 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce task executor complete.
+2015-10-10 11:34:06,912 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 100%
+2015-10-10 11:34:06,913 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local1549600115_0001 completed successfully
+2015-10-10 11:34:06,932 INFO [org.apache.hadoop.mapreduce.Job] - Counters: 35
+	File System Counters
+		FILE: Number of bytes read=720
+		FILE: Number of bytes written=506998
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=124
+		HDFS: Number of bytes written=22
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=6
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=11
+		Map output bytes=150
+		Map output materialized bytes=178
+		Input split bytes=112
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3
+		Reduce shuffle bytes=178
+		Reduce input records=11
+		Reduce output records=3
+		Spilled Records=22
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=391118848
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=62
+	File Output Format Counters 
+		Bytes Written=22
+2015-10-10 11:34:40,988 WARN [org.apache.hadoop.util.NativeCodeLoader] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-10-10 11:34:41,778 INFO [org.apache.hadoop.conf.Configuration.deprecation] - session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-10 11:34:41,779 INFO [org.apache.hadoop.metrics.jvm.JvmMetrics] - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2015-10-10 11:34:41,956 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-10-10 11:34:41,966 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2015-10-10 11:34:42,045 INFO [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] - Total input paths to process : 1
+2015-10-10 11:34:42,089 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1
+2015-10-10 11:34:42,248 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - Submitting tokens for job: job_local531360546_0001
+2015-10-10 11:34:42,416 INFO [org.apache.hadoop.mapreduce.Job] - The url to track the job: http://localhost:8080/
+2015-10-10 11:34:42,417 INFO [org.apache.hadoop.mapreduce.Job] - Running job: job_local531360546_0001
+2015-10-10 11:34:42,420 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter set in config null
+2015-10-10 11:34:42,430 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-10 11:34:42,497 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for map tasks
+2015-10-10 11:34:42,499 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local531360546_0001_m_000000_0
+2015-10-10 11:34:42,537 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-10 11:34:42,538 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-10-10 11:34:42,541 INFO [org.apache.hadoop.mapred.MapTask] - Processing split: hdfs://parallels:9000/mapreduce/input/inputdata:0+62
+2015-10-10 11:34:42,681 INFO [org.apache.hadoop.mapred.MapTask] - (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-10 11:34:42,683 INFO [org.apache.hadoop.mapred.MapTask] - mapreduce.task.io.sort.mb: 100
+2015-10-10 11:34:42,683 INFO [org.apache.hadoop.mapred.MapTask] - soft limit at 83886080
+2015-10-10 11:34:42,684 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufvoid = 104857600
+2015-10-10 11:34:42,684 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396; length = 6553600
+2015-10-10 11:34:42,690 INFO [org.apache.hadoop.mapred.MapTask] - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-10 11:34:42,787 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 
+2015-10-10 11:34:42,791 INFO [org.apache.hadoop.mapred.MapTask] - Starting flush of map output
+2015-10-10 11:34:42,791 INFO [org.apache.hadoop.mapred.MapTask] - Spilling map output
+2015-10-10 11:34:42,791 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufend = 150; bufvoid = 104857600
+2015-10-10 11:34:42,791 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396(104857584); kvend = 26214356(104857424); length = 41/6553600
+2015-10-10 11:34:42,800 INFO [org.apache.hadoop.mapred.MapTask] - Finished spill 0
+2015-10-10 11:34:42,803 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local531360546_0001_m_000000_0 is done. And is in the process of committing
+2015-10-10 11:34:42,815 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map
+2015-10-10 11:34:42,815 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local531360546_0001_m_000000_0' done.
+2015-10-10 11:34:42,815 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local531360546_0001_m_000000_0
+2015-10-10 11:34:42,816 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map task executor complete.
+2015-10-10 11:34:42,822 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for reduce tasks
+2015-10-10 11:34:42,822 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local531360546_0001_r_000000_0
+2015-10-10 11:34:42,833 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-10 11:34:42,833 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-10-10 11:34:42,836 INFO [org.apache.hadoop.mapred.ReduceTask] - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7246baa3
+2015-10-10 11:34:42,854 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-10-10 11:34:42,856 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - attempt_local531360546_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-10-10 11:34:42,894 INFO [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher] - localfetcher#1 about to shuffle output of map attempt_local531360546_0001_m_000000_0 decomp: 174 len: 178 to MEMORY
+2015-10-10 11:34:42,906 INFO [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput] - Read 174 bytes from map-output for attempt_local531360546_0001_m_000000_0
+2015-10-10 11:34:42,910 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - closeInMemoryFile -> map-output of size: 174, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->174
+2015-10-10 11:34:42,911 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - EventFetcher is interrupted.. Returning
+2015-10-10 11:34:42,912 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-10 11:34:42,912 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2015-10-10 11:34:42,921 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-10-10 11:34:42,922 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-10-10 11:34:42,923 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merged 1 segments, 174 bytes to disk to satisfy reduce memory limit
+2015-10-10 11:34:42,923 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 1 files, 178 bytes from disk
+2015-10-10 11:34:42,924 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 0 segments, 0 bytes from memory into reduce
+2015-10-10 11:34:42,925 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-10-10 11:34:42,925 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-10-10 11:34:42,926 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-10 11:34:42,954 INFO [org.apache.hadoop.conf.Configuration.deprecation] - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-10-10 11:34:43,113 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local531360546_0001_r_000000_0 is done. And is in the process of committing
+2015-10-10 11:34:43,117 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-10 11:34:43,117 INFO [org.apache.hadoop.mapred.Task] - Task attempt_local531360546_0001_r_000000_0 is allowed to commit now
+2015-10-10 11:34:43,132 INFO [org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter] - Saved output of task 'attempt_local531360546_0001_r_000000_0' to hdfs://parallels:9000/mapreduce/output/_temporary/0/task_local531360546_0001_r_000000
+2015-10-10 11:34:43,133 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce > reduce
+2015-10-10 11:34:43,134 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local531360546_0001_r_000000_0' done.
+2015-10-10 11:34:43,134 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local531360546_0001_r_000000_0
+2015-10-10 11:34:43,134 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce task executor complete.
+2015-10-10 11:34:43,425 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local531360546_0001 running in uber mode : false
+2015-10-10 11:34:43,427 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 100%
+2015-10-10 11:34:43,430 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local531360546_0001 completed successfully
+2015-10-10 11:34:43,445 INFO [org.apache.hadoop.mapreduce.Job] - Counters: 35
+	File System Counters
+		FILE: Number of bytes read=720
+		FILE: Number of bytes written=504310
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=124
+		HDFS: Number of bytes written=22
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=11
+		Map output bytes=150
+		Map output materialized bytes=178
+		Input split bytes=112
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3
+		Reduce shuffle bytes=178
+		Reduce input records=11
+		Reduce output records=3
+		Spilled Records=22
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=8
+		Total committed heap usage (bytes)=427294720
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=62
+	File Output Format Counters 
+		Bytes Written=22
+2015-10-24 16:13:36,251 WARN [org.apache.hadoop.util.NativeCodeLoader] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-10-24 16:13:38,813 INFO [org.apache.hadoop.conf.Configuration.deprecation] - session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-10-24 16:13:38,816 INFO [org.apache.hadoop.metrics.jvm.JvmMetrics] - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2015-10-24 16:13:39,094 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2015-10-24 16:13:39,101 WARN [org.apache.hadoop.mapreduce.JobSubmitter] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2015-10-24 16:13:39,463 INFO [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] - Total input paths to process : 1
+2015-10-24 16:13:39,585 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1
+2015-10-24 16:13:39,792 INFO [org.apache.hadoop.mapreduce.JobSubmitter] - Submitting tokens for job: job_local1349700691_0001
+2015-10-24 16:13:40,061 INFO [org.apache.hadoop.mapreduce.Job] - The url to track the job: http://localhost:8080/
+2015-10-24 16:13:40,064 INFO [org.apache.hadoop.mapreduce.Job] - Running job: job_local1349700691_0001
+2015-10-24 16:13:40,070 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter set in config null
+2015-10-24 16:13:40,096 INFO [org.apache.hadoop.mapred.LocalJobRunner] - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-24 16:13:40,197 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for map tasks
+2015-10-24 16:13:40,198 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local1349700691_0001_m_000000_0
+2015-10-24 16:13:40,284 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-24 16:13:40,285 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-10-24 16:13:40,290 INFO [org.apache.hadoop.mapred.MapTask] - Processing split: hdfs://parallels:9000/mapreduce/input/inputdata:0+62
+2015-10-24 16:13:40,431 INFO [org.apache.hadoop.mapred.MapTask] - (EQUATOR) 0 kvi 26214396(104857584)
+2015-10-24 16:13:40,432 INFO [org.apache.hadoop.mapred.MapTask] - mapreduce.task.io.sort.mb: 100
+2015-10-24 16:13:40,432 INFO [org.apache.hadoop.mapred.MapTask] - soft limit at 83886080
+2015-10-24 16:13:40,432 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufvoid = 104857600
+2015-10-24 16:13:40,432 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396; length = 6553600
+2015-10-24 16:13:40,439 INFO [org.apache.hadoop.mapred.MapTask] - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-10-24 16:13:41,069 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local1349700691_0001 running in uber mode : false
+2015-10-24 16:13:41,071 INFO [org.apache.hadoop.mapreduce.Job] -  map 0% reduce 0%
+2015-10-24 16:13:41,184 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 
+2015-10-24 16:13:41,189 INFO [org.apache.hadoop.mapred.MapTask] - Starting flush of map output
+2015-10-24 16:13:41,189 INFO [org.apache.hadoop.mapred.MapTask] - Spilling map output
+2015-10-24 16:13:41,189 INFO [org.apache.hadoop.mapred.MapTask] - bufstart = 0; bufend = 150; bufvoid = 104857600
+2015-10-24 16:13:41,189 INFO [org.apache.hadoop.mapred.MapTask] - kvstart = 26214396(104857584); kvend = 26214356(104857424); length = 41/6553600
+2015-10-24 16:13:41,215 INFO [org.apache.hadoop.mapred.MapTask] - Finished spill 0
+2015-10-24 16:13:41,225 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local1349700691_0001_m_000000_0 is done. And is in the process of committing
+2015-10-24 16:13:41,242 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map
+2015-10-24 16:13:41,242 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local1349700691_0001_m_000000_0' done.
+2015-10-24 16:13:41,242 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local1349700691_0001_m_000000_0
+2015-10-24 16:13:41,242 INFO [org.apache.hadoop.mapred.LocalJobRunner] - map task executor complete.
+2015-10-24 16:13:41,247 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Waiting for reduce tasks
+2015-10-24 16:13:41,248 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Starting task: attempt_local1349700691_0001_r_000000_0
+2015-10-24 16:13:41,264 INFO [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree] - ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-24 16:13:41,264 INFO [org.apache.hadoop.mapred.Task] -  Using ResourceCalculatorProcessTree : null
+2015-10-24 16:13:41,278 INFO [org.apache.hadoop.mapred.ReduceTask] - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@2940eed3
+2015-10-24 16:13:41,310 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-10-24 16:13:41,314 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - attempt_local1349700691_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-10-24 16:13:41,373 INFO [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher] - localfetcher#1 about to shuffle output of map attempt_local1349700691_0001_m_000000_0 decomp: 174 len: 178 to MEMORY
+2015-10-24 16:13:41,379 INFO [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput] - Read 174 bytes from map-output for attempt_local1349700691_0001_m_000000_0
+2015-10-24 16:13:41,383 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - closeInMemoryFile -> map-output of size: 174, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->174
+2015-10-24 16:13:41,385 INFO [org.apache.hadoop.mapreduce.task.reduce.EventFetcher] - EventFetcher is interrupted.. Returning
+2015-10-24 16:13:41,386 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-24 16:13:41,387 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2015-10-24 16:13:41,401 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-10-24 16:13:41,401 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-10-24 16:13:41,403 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merged 1 segments, 174 bytes to disk to satisfy reduce memory limit
+2015-10-24 16:13:41,403 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 1 files, 178 bytes from disk
+2015-10-24 16:13:41,404 INFO [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl] - Merging 0 segments, 0 bytes from memory into reduce
+2015-10-24 16:13:41,404 INFO [org.apache.hadoop.mapred.Merger] - Merging 1 sorted segments
+2015-10-24 16:13:41,405 INFO [org.apache.hadoop.mapred.Merger] - Down to the last merge-pass, with 1 segments left of total size: 165 bytes
+2015-10-24 16:13:41,405 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-24 16:13:41,484 INFO [org.apache.hadoop.conf.Configuration.deprecation] - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-10-24 16:13:42,076 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 0%
+2015-10-24 16:13:42,563 INFO [org.apache.hadoop.mapred.Task] - Task:attempt_local1349700691_0001_r_000000_0 is done. And is in the process of committing
+2015-10-24 16:13:42,569 INFO [org.apache.hadoop.mapred.LocalJobRunner] - 1 / 1 copied.
+2015-10-24 16:13:42,570 INFO [org.apache.hadoop.mapred.Task] - Task attempt_local1349700691_0001_r_000000_0 is allowed to commit now
+2015-10-24 16:13:42,643 INFO [org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter] - Saved output of task 'attempt_local1349700691_0001_r_000000_0' to hdfs://parallels:9000/mapreduce/output/_temporary/0/task_local1349700691_0001_r_000000
+2015-10-24 16:13:42,644 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce > reduce
+2015-10-24 16:13:42,645 INFO [org.apache.hadoop.mapred.Task] - Task 'attempt_local1349700691_0001_r_000000_0' done.
+2015-10-24 16:13:42,645 INFO [org.apache.hadoop.mapred.LocalJobRunner] - Finishing task: attempt_local1349700691_0001_r_000000_0
+2015-10-24 16:13:42,645 INFO [org.apache.hadoop.mapred.LocalJobRunner] - reduce task executor complete.
+2015-10-24 16:13:43,084 INFO [org.apache.hadoop.mapreduce.Job] -  map 100% reduce 100%
+2015-10-24 16:13:43,084 INFO [org.apache.hadoop.mapreduce.Job] - Job job_local1349700691_0001 completed successfully
+2015-10-24 16:13:43,100 INFO [org.apache.hadoop.mapreduce.Job] - Counters: 35
+	File System Counters
+		FILE: Number of bytes read=720
+		FILE: Number of bytes written=507054
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=124
+		HDFS: Number of bytes written=22
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=6
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=11
+		Map output bytes=150
+		Map output materialized bytes=178
+		Input split bytes=112
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=3
+		Reduce shuffle bytes=178
+		Reduce input records=11
+		Reduce output records=3
+		Spilled Records=22
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=8
+		Total committed heap usage (bytes)=427294720
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=62
+	File Output Format Counters 
+		Bytes Written=22

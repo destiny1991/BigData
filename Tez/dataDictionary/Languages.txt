@@ -1,0 +1,879 @@
+A-Pucikwar
+Abanyom
+Abaza
+Abenaki
+Abkhaz
+Abujmaria
+Acehnese
+Adamorobe Sign Language
+Adele
+Adyghe
+Afar
+Afrikaans
+Afro-Seminole Creole
+Aimaq
+Aini
+Ainu
+Akan
+Akawaio
+Akkadian
+Aklanon
+Albanian
+Aleut
+Algonquin
+Alsatian
+Altay
+Alutor
+Amdang
+American Sign Language
+Amharic
+Ammonite
+Amorite
+Andalusian
+Angaur
+Angika
+Anglo-Saxon
+Anyin
+Ao
+Arabic
+Aragonese
+Aramaic
+Are
+Argobba
+Armenian
+Aromanian
+Arvanitic
+Ashkenazi Hebrew
+Ashkun
+Asi
+Assamese
+Assyrian Neo-Aramaic
+Asturian
+Ateso or Teso
+Ati
+Auslan
+Avar
+Avestan
+Awadhi
+Aymara
+Azerbaijani
+Badaga
+Badeshi
+Bahnar
+Bajelani
+Balinese
+Balochi
+Balti
+Bambara
+Banjar
+Banyumasan
+Basaa
+Bashkir
+Basque
+Batak Dairi
+Batak Karo
+Batak Mandailing
+Batak Simalungun
+Batak Toba
+Bateri
+Bats
+Bavarian
+Beja
+Belarusian
+Belhare
+Bellari
+Bemba
+Bengali
+Bengali Sign language
+Beothuk
+Berber
+Berta
+Bezhta
+Bhili
+Bhojpuri
+Bijil Neo-Aramaic
+Bikol
+Bikya
+Bissa
+Blackfoot
+Boholano
+Bohtan Neo-Aramaic
+Bolgar
+Bonan
+Bororo
+Bosnian
+Brahui
+Breton
+British Sign Language
+Bua
+Buginese
+Bukusu
+Bulgarian
+Bunjevac
+Burmese
+Burushaski
+Buryat
+Caluyanon
+Camunic
+Cantonese
+Carian
+Catalan
+Catawba
+Cayuga
+Cebuano
+Chabacano
+Chaga
+Chagatai
+Chaldean Neo-Aramaic
+Chamorro
+Chaouia
+Chechen
+Chemakum
+Chenchu
+Chenoua
+Cherokee
+Cheyenne
+Chhattisgarhi
+Chichewa
+Chickasaw
+Chilcotin
+Chinese(s)
+Chinese(t)
+Chintang
+Chipewyan
+Chiricahua
+Chittagonian
+Choctaw
+Chorasmian
+Chukchi
+Chulym
+Church Slavonic
+Chuukese
+Chuvash
+Cocoma
+Cocopa
+Comorian
+Coptic
+Cornish
+Corsican
+Cree
+Crimean Tatar or Crimean Turkish
+Croatian
+Cuman
+Cumbric
+Curonian
+Cuyonon
+Czech
+Dacian
+Dagbani
+Dahlik
+Dalecarlian
+Dalmatian
+Dameli
+Danish
+Dargin
+Dari
+Dari-Persian
+Darkhat
+Daur or Dagur
+Dena'ina or Tanaina
+Dhatki
+Dhivehi or Maldivian
+Dida
+Dioula or Jula
+Dogri
+Dogrib or Tli Cho
+Dolgan
+Domaaki or Dumaki
+Dongxiang or Santa
+Duala
+Dungan
+Dutch
+Dzhidi
+Dzongkha
+Eastern Yugur
+Eblaite
+Edomite
+Egyptian
+Egyptian Arabic
+Ekoti
+Elamite
+Endegen
+Enets
+English
+Ennemor
+Erzya
+Esperanto
+Estonian
+Etruscan
+Even
+Evenk
+Ewe
+Eyak
+Faeroese
+Fang
+Fars
+Fijian
+Filipino
+Finnish
+Finnish Sign Language
+Flemish language
+Fon
+French
+French Sign Language
+Frisian North
+Frisian Saterland
+Frisian West
+Friulian
+Fula
+Fur
+Ga
+Gadaba
+Gafat
+Gagauz
+Galician
+Gan
+Gangte
+Garhwali
+Gaulish
+Gawar-Bati
+Gayo
+Gazi
+Ge'ez
+Gen
+Georgian
+German
+German Sign Language
+Ghomara
+Gikuyu
+Gilbertese
+Gileki
+Goaria
+Gondi
+Gothic
+Grangali
+Greek
+Guanche
+Guaran?
+Gujarati
+Gula Iro
+Gullah
+Gusii
+Gwich'in
+Hadramautic
+Hadza
+Haida
+Haitian Creole
+Hakka
+Harari
+Harauti
+Harsusi
+Haryanavi
+Harzani
+Hattic
+Hausa
+Havasupai
+Hawaii Pidgin Sign Language
+Hawaiian
+Hazaragi
+Hebrew
+Herero
+Hiligaynon or Ilonggo
+Hindi
+Hinukh
+Hiri Motu
+Hittite
+Hixkaryana
+Hmong
+Ho
+Hopi
+Hulaul?
+Hungarian
+Hurrian
+Hutterite German
+Iban
+Ibanag
+Ibibio
+Icelandic
+Igbo
+Ikalanga
+Ili Turki
+Illinois
+Ilokano
+Inari Sami
+Indonesian
+Ingrian
+Ingush
+Inuktitut
+Inupiaq
+Inuvialuktun
+Iraqw
+Irish
+Irish Sign Language
+Irula
+Isan
+Istro-Romanian
+Italian
+Itelmen
+Jacaltec
+Jalaa
+Japanese
+Jaqaru
+Jarai
+Javanese
+Jibbali
+Jicarilla Apache
+Juang
+Judeo-Aramaic
+Jurchen
+Kabardian
+Kabyle
+Kachin
+Kalaallisut
+Kalami
+Kalasha
+Kalmyk
+Kalto
+Kamas
+Kankanai
+Kannada
+Kaonde
+Kapampangan
+Karachay-Balkar
+Karagas
+Karaim
+Karakalpak
+Karelian
+Kashmiri
+Kashubian
+Kawi
+Kazakh
+Kemi Sami
+Kensiu
+Kerek
+Ket
+Khakas
+Khalaj
+Kham
+Khandeshi
+Khanty
+Khasi
+Khazar
+Khirwar
+Khmer
+Khmu
+Khowar
+Khunsari
+Kildin Sami
+Kimatuumbi
+Kinaray-a
+Kinyarwanda
+Kirombo
+Kirundi
+Kivunjo
+Klallam
+Kodava Takk
+Kohistani
+Kolami
+Komi
+Konda
+Kongo
+Konkani
+Koraga
+Korandje
+Korean
+Korku
+Korowai
+Korwa
+Koryak
+Kosraean
+Kota
+Koy Sanjaq Surat
+Koya
+Koyra Chiini
+Krymchak
+Kui
+Kujarge
+Kumauni
+Kumyk
+Kumzari
+Kurdish
+Kurukh
+Kurumba
+Kusunda
+Kutenai
+Kuvi
+Kwanyama
+Kxoe
+Kyrgyz
+Laal
+Ladakhi
+Ladin
+Ladino
+Lakota
+Lambadi
+Lao
+Latin
+Latvian
+Laz
+Lenape
+Leonese
+Lepontic
+Lezgi
+Ligbi
+Limburgish
+Lingala
+Lipan Apache
+Lisan al-Dawat
+Lishana Deni
+Lishanid Noshan
+Lithuanian
+Livonian
+Lombard
+Lotha
+Low German
+Lower Sorbian
+Lozi or Silozi
+Ludic or Ludian
+Luganda
+Lunda
+Luri
+Lushootseed
+Lusoga
+Luvale
+Luwati
+Luwian
+Luxembourgish
+Lycian
+Lydian
+Macedonian
+Magadhi
+Maguindanao
+Mahican
+Mahl
+Maithili
+Makasar
+Makhuwa
+Makhuwa-Meetto
+Malagasy
+Malay
+Malayalam
+Malaysian Sign Language
+Maltese
+Malto
+Malvi
+Mam
+Manchurian
+Manda
+Mandaic
+Mandarin
+Mandinka
+Mansi
+Manx
+Manyika
+Maori
+Mapudungun
+Maragoli
+Maranao
+Marathi
+Mari
+Maria
+Marquesan
+Marshallese
+Martha's Vineyard Sign Language
+Masaba
+Masbatenyo
+Mator
+Mauritian Creole
+Maya
+Mazandarani
+Megleno-Romanian
+Megrelian
+Mehri
+Meitei
+Menominee
+Mentawai
+Meroitic
+Meru
+Merya
+Mescalero Apache
+Mesmes
+Mesqan
+Messapian
+Mi'kmaq
+Miami
+Michif
+Middle Dutch
+Middle English
+Middle French
+Middle High German
+Middle Persian
+Mikasuki
+Minaean
+Minangkabau
+Mirandese
+Mlahs?
+Moabite
+Mobilian Jargon
+Moghol
+Mohawk
+Mohegan
+Moksha
+Molengue
+Mon
+Mongolian
+Mono
+Montagnais
+Montenegrin
+Motu
+Mpre
+Muher
+Mukha-Dora
+Mundari
+Munji
+Murcian
+Muria
+Muromian
+Murut
+Nafaanra
+Nagarchal
+Nahuatl
+Naiki
+Nama
+Nanai
+Natanzi
+Nauruan
+Navajo
+Nayini
+Ndau
+Ndebele
+Ndonga
+Neapolitan
+Negidal
+Nenets
+Nepal Bhasa
+Nepali
+New Zealand Sign Language
+Nganasan
+Ngumba
+Nheengatu
+Nias 
+Nicaraguan Sign Language
+Nicola
+Niellim
+Nigerian Pidgin
+Nisenan
+Niuean or Niue
+Nivkh or Gilyak
+Nogai
+Norfuk
+Norman
+Norn
+Northern Sami
+Northern Sotho
+Northern Straits Salish
+Northern Yukaghir
+Norwegian
+Nuer
+Nyabwa
+Nyah Kur
+Nyangumarta
+Nyoro
+Ojibwe
+Old Church Slavonic
+Old English
+Old French
+Old French Sign Language
+Old High German
+Old Norse
+Old Nubian language
+Old Persian
+Old Prussian
+Old Saxon
+Old South Arabic
+Old Tupi
+Olonets Karelian
+Omagua
+Ongota
+Oriya
+Ormuri
+Oroch
+Orok
+Oromo
+Oropom
+Ossetic
+Ottoman Turkish
+Palaic
+Palauan
+Pali
+Pangasinan
+Papiamento
+Parachi
+Parauk
+Parji
+Parya
+Pashto
+Passamaquoddy
+Pecheneg
+Pemon
+Pengo
+Pennacook
+Pennsylvania Dutch
+Pentlatch
+Persian
+Phalura
+Phoenician
+Phrygian
+Phuthi
+Picard
+Pictish
+Pirah?
+Pisidian
+Plautdietsch
+Polabian
+Polish
+Portuguese
+Pothohari
+Potiguara
+Pradhan
+Prakrit
+Proto-Indo-European
+Puelche
+Puma
+Punjabi
+Qashqai or Ghashghai
+Qatabanian
+Quebec Sign Language
+Quechua
+Rajasthani
+Ratagnon
+Romanian
+Romansh
+Romany
+Romblomanon
+Rotokas
+Runyankole language
+Russenorsk
+Russian
+Russian Sign Language
+Ruthenian
+Sabaean
+Salar
+Samaritan Hebrew
+Samoan
+Sandawe
+Sangisari
+Sanglechi-Ishkashimi
+Sango
+Sanskrit
+Santali
+Sara
+Saramaccan
+Sardinian
+Sarikoli
+Saurashtra
+Savara
+Savi
+Sawai
+Scots
+Scots Gaelic
+Selangor Sign Language
+Selkup
+Selonian
+Semnani
+Senaya
+Sened
+Senhaja de Srair
+Sephardi Hebrew
+Serbian
+Serbo-Croatian
+Sesotho
+Seto
+Seychellois Creole
+Shahrudi
+Shimaore
+Shina
+Shona
+Shor
+Shughni
+Shumashti
+Shuswap
+Sicilian
+Sidamo
+Sidetic
+Sika
+Silesian
+Silt'e
+Sindhi
+Sinhalese
+Sioux
+Siraiki
+Sivandi
+Skolt Sami
+Slavey
+Slovak
+Slovene
+Soddo
+Soi
+Somali
+Sonjo
+Sonsorolese
+Soqotri
+Sora
+Sorbian Lower
+Sorbian Upper
+Sourashtra
+South Estonian
+Southern Sami
+Southern Yukaghir
+Spanish
+Sranan Tongo
+Suba
+Sucite
+Sudovian
+Sumerian
+Sundanese
+Supyire
+Surigaonon
+Susu
+Svan
+Swahili
+Swati
+Swedish
+Syriac
+Tabasaran
+Tachelhit
+Tagalog
+Tahitian
+Taiwanese Sign Language
+Tajik
+Takestani
+Talysh
+Tamil
+Tanacross
+Tangut
+Tarifit
+Tat
+Tatar
+Tausug
+Tehuelche
+Telugu
+Temiar
+Tepehua language
+Tetum
+Thai
+Tharu
+Thracian
+Tibetan
+Tigre
+Tigrinya
+Tillamook
+Tirahi
+Tiv
+Tlingit
+Tobian
+Tocharian
+Toda
+Tok Pisin
+Tokelauan
+Tonga
+Tongan
+Tongva
+Torwali
+Tregami
+Tsat
+Tsez
+Tshiluba
+Tsimshian
+Tsonga
+Tswana
+Tu
+Tuareg
+Tulu
+Tumbuka
+Tupiniquim
+Turkish
+Turkmen
+Turoyo
+Tuvaluan
+Tuvan Tuvin
+Ubykh
+Udihe
+Udmurt
+Ugaritic
+Ukrainian
+Ulbare
+Ulch
+Unserdeutsch
+Upper Sorbian
+Urdu
+Uripiv
+Urum
+Ute
+Uyghur
+Uzbek
+Vafsi
+Valencian
+Valencian Sign Language
+Vasi-vari
+Venda
+Venetian
+Veps
+Vietnamese
+Votic
+Waddar
+Waigali
+Waima
+Wakhi
+Walloon
+Waneci
+Wapishana
+Waray-Waray
+Washo
+Welsh
+Western Neo-Aramaic
+Weyto
+Wolane
+Wolof
+Wotapuri-Katarqalai
+Wu
+Xam
+Xhosa
+Xiang
+Xibe
+Xipaya
+Xok?
+Xukur?
+Yaaku language 
+Yaeyama language 
+Yakut 
+Yankunytjatjara language 
+Yanomami 
+Yanyuwa language 
+Yapese 
+Yaqui language 
+Yauma language
+Yavapai language 
+Yazdi
+Yemenite Hebrew language
+Yeni language 
+Yevanic language 
+Yi language 
+Yiddish
+Yogur
+Yokutsan languages 
+Yonaguni language 
+Yucatec Maya Sign Language
+Yucatec Maya language 
+Yuchi language 
+Yugur
+Yukaghir languages 
+Yupik language
+Yurats language 
+Yurok language 
+Zapotec
+Zazaki
+Zhuang
+Zoque
+Zulu
+Zway

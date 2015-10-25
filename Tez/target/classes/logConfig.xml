@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<configuration>
+ 	<property>
+    	<name>totalLines</name>
+    	<value>2000</value>
+    	<description>The total lines should be generated</description>
+ 	</property>
+  
+ 	<property>
+    	<name>maps_num</name>
+    	<value>4</value>
+    	<description>The number of maps in mapreduce</description>
+  	</property>
+  	
+  	<property>
+    	<name>parallelism</name>
+    	<value>4</value>
+    	<description>parallelism level in Tez</description>
+  	</property>
+  	
+  	<property>
+    	<name>logFormat</name>
+    	<value>"%a %A %B %b %{cookie}C %D %{file.encoding}e %f %h %H \"%{header}i\" %k \"%l\" \"%m\" \"%n\" \"%o\" %p %P \"%q\" \"%r\" \"%R\" %>s %{sec}t %{usec}t \"%t\" %{us}T \"%u\" %U %v %V %X %I %O \"%{VARNAME}^ti\" \"%{VARNAME}^to\" \"%-{format}h\"" combined</value>
+    	<description>Specify the var which need to be generated</description>
+  	</property>
+  	
+  	<property>
+    	<name>isCompress</name>
+    	<value>false</value>
+    	<description>decide outputFile whether to be compress</description>
+  	</property>
+  	
+  	<property>
+    	<name>fileName</name>
+    	<value>TezLogGenerator.log</value>
+    	<description>decide outputFile name</description>
+  	</property>
+  	
+	<property>
+    	<name>outputPath</name>
+    	<value>hdfs://master:8020/tmp/TezApacheLogOutput/</value>
+    	<description>decide output path</description>
+  	</property>
+  	
+</configuration>
