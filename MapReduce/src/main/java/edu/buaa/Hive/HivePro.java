@@ -3,6 +3,9 @@ package edu.buaa.Hive;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+
+import javax.net.ssl.SSLContext;
+
 import java.sql.DriverManager;
 
 public class HivePro {
@@ -10,6 +13,9 @@ public class HivePro {
              "org.apache.hive.jdbc.HiveDriver";
  
 	public static void main(String[] args) throws Throwable {
+		
+		
+		
 		Class.forName(driverName);
 		Connection con = DriverManager.getConnection(
                 "jdbc:hive2://parallels:10000/hive", "root", "chen2015");

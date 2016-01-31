@@ -6,13 +6,23 @@
   <artifactId>mapreduce</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>mapreduce</name>
   <url>http://maven.apache.org</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <repositories>
+	<repository>
+	  <id>Central</id>
+	  <name>Central Repository</name>
+	  <url>http://mvnrepository.com/</url>
+	  <layout>default</layout>
+	  <snapshots>
+	    <enabled>false</enabled>
+	  </snapshots>
+	</repository>
+  </repositories>
   
   <dependencies>
   	<!-- Hadoop -->
