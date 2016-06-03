@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-import javax.net.ssl.SSLContext;
-
 import java.sql.DriverManager;
 
 public class HivePro {
