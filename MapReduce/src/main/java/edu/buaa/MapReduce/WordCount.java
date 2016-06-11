@@ -35,6 +35,7 @@ public class WordCount {
 		FileOutputFormat.setOutputPath(job, outpath);
 	
 		job.setMapperClass(MyMapper.class);
+		job.setCombinerClass(MyReducer.class);
 		job.setReducerClass(MyReducer.class);
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(LongWritable.class);
